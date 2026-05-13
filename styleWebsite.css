@@ -30,10 +30,13 @@ body {
     /* Замени 'background.jpg' на ссылку на твое фото */
     background-image: url('fonMechet.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     /* Делает фон статичным */
     position: relative;
+    min-height: 100vh;
+    height: 100dvh;
+    
 }
 
 .overlay {
