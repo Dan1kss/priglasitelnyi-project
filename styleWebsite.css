@@ -36,6 +36,8 @@ body {
     position: relative;
     min-height: 100vh;
     height: 100dvh;
+    background-attachment: scroll;
+    background-size: 50%;
     
 }
 
