@@ -28,7 +28,7 @@ button.addEventListener('click', async (e) => {
 
 try {
  // Отправляем данные на твой сервер
-const response = await fetch('http://localhost:3000/', {
+const response = await fetch('https://priglasitelnyi-project.onrender.com/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ info: info }) // Cервер ждет объект с полем info
