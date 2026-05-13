@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шақыру</title>
+    <link rel="stylesheet" href="styleWebsite.css">
+    <script src="front.js" defer></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+    
+    
+    
+    <body>
+    
+        <!-- Первая часть: Статичное изображение с пеленой -->
+        <section class="first-section">
+            <div class="overlay">
+                <div class="content">
+                    <h1> </h1>
+                    <h1> </h1><h1> </h1>
+                    <h3>Сағыныш пен тағзым: Ата-аналарымызды еске алу асына шақырамыз!</h3>
+                    <div class="photo-container">
+                        <!-- Замени 'photo1.jpg' и 'photo2.jpg' на свои файлы -->
+                        <img src="photoDad.jpg" alt="Фото 1" class="side-photo">
+                        <img src="photoMom2.jpg" alt="Фото 2" class="side-photo">
+                    </div>
+                    
+                    <h4>
+                        Ата-баба рухына тағзым — перзенттік парызымыз. Біз өткенді еске алу және әулет бірлігін нығайту үшін жиналамыз.</h4>
+                    <h4>
+                        Естелік мәңгілік, сағыныш шексіз!
+                    </h4>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Вторая часть: Бежевый фон и календарь -->
+        <section class="second-section">
+            <div class="text-block">
+                <p>
+                    Құрметті ағайын! </p> <p>Оқиға жоғары деңгейде өткізу үшін келетін қонақтар санын алдын ала білуіміз маңызды. Бұл бізге
+                дастарқан 
+                жаюды және басқа да ұйымдастыру жұмыстарын тиянақты жоспарлауға көмектеседі. Төмендегі қысқа сауалнаманы толтыруыңызды
+                сұраймыз.
+                </p>
+            </div>
+    
+            <div class="calendar-container">
+                <h2>Өткізілетін уақыты:</h2>
+                <h2>6 маусым 2026 - cағат 13:00 - де </h2>
+                <div class="calendar-grid">
+                    <div class="day-header">Пн</div>
+                    <div class="day-header">Вт</div>
+                    <div class="day-header">Ср</div>
+                    <div class="day-header">Чт</div>
+                    <div class="day-header">Пт</div>
+                    <div class="day-header">Сб</div>
+                    <div class="day-header">Вс</div>
+    
+                    <!-- Пустые ячейки, если месяц начинается не с понедельника -->
+                    <div class="day">1</div>
+                    <div class="day">2</div>
+                    <div class="day">3</div>
+                    <div class="day">4</div>
+                    <div class="day">5</div>
+                    <div class="day special-date">6</div> <!-- Отмеченное число -->
+                    <div class="day">7</div>
+                    <div class="day">8</div>
+                    <div class="day">9</div>
+                    <div class="day">10</div>
+                    <div class="day">11</div>
+                    <div class="day">12</div>
+                    <div class="day">13</div>
+                    <div class="day">14</div>
+                    <div class="day">15</div>
+                    <div class="day">16</div>
+                    <div class="day">17</div>
+                    <div class="day">18</div>
+                    <div class="day">19</div>
+                    <div class="day">20</div>
+                    <div class="day">21</div>
+                    <div class="day">22</div>
+                    <div class="day">23</div>
+                    <div class="day">24</div>
+                    <div class="day">25</div>
+                    <div class="day">26</div>
+                    <div class="day">27</div>
+                    <div class="day">28</div>
+                    <div class="day">29</div>
+                    <div class="day">30</div>
+                </div>
+            </div>
+                <!-- регистрация  -->
+                <h1> </h1>
+
+                <div class="right-sidebar">
+                    <a href="https://2gis.kz/ekibastuz/gallery/geo/70000001102242294/photoId/30258560305671948" target="_blank" class="info-link">
+                        <span class="address-text">Өткізілетін жердің мекен-жайы : Екібастұз қаласы, Мәшһүр Жүсіп көшесі 115а , ресторан
+                            «Керуен»</span>
+                        <p class="click-hint">2GIS жүйесіне өту үшін осы жерді басыңыз</p>
+                    </a>
+                </div>
+                <h1> </h1>
+                <div class="registration-card">
+                    <h2>Сауалнама</h2>
+                    <form id="gestsForm">
+                        <label for="nameee">Аты:</label>
+                        <input type="text" id="nameee" placeholder="Введите имя" required>
+                
+                        <label for="lastname">Тегі:</label>
+                        <input type="text" id="lastname" placeholder="Введите фамилию" required>
+                
+                        <label class="checkbox-group">
+                            <input type="checkbox" id="checkbox">
+                            Мен келемін!
+                        </label>
+                
+                        <button id="button" type="submit" class="btn-submit">Жіберу</button>
+                        <p id="message"></p>
+                    </form>
+                </div>
+<h1>  </h1>
+                
+
+                <h4 class="addd">Егер сұрақтарыңыз туындаса ақпаратты осы нөмерлер бойынша біле аласыз: +77719077177, +77000761676</h4>
+                    <h4 class="ttttext">Ағайын-туыс аман болсын!
+                    Ортақ дұғамыз қабыл болып, басымыз тек жақсылықта қосылсын. Кездескенше!</h4>
+
+
+
+        </section>
+    
+    
+    
+
+    
+</body>
+</html>
