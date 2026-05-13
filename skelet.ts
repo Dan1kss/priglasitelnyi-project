@@ -7,7 +7,13 @@ import { create , read } from "./database";
 
 const app= express();
 app.use(express.json());
-app.use(cors({ origin: "http://127.0.0.1:5500" }));// Разрешить запросы только отсюда
+app.use(
+  cors({
+    origin: "https://dan1kss.github.io",
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"],
+  }),
+);// Разрешить запросы только отсюда. далее после опубликации фронтенда надо будет поменять URL{ origin: "http://127.0.0.1:5500" }
 
 app.post('/', async (req, res) => { // Добавь async
     const gest = await create(req.body); // Добавь await
